@@ -1,5 +1,13 @@
 defmodule Identicon do
 
+  @doc """
+  Create a Identicon by providing the name to the main function
+
+  ## Examples
+
+      iex> Identicon.main "your_name"
+
+  """
   def main(input) do
     input
     |> hash_input
